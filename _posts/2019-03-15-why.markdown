@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Why?"
+date:   2019-03-15 14:25:00 +0330
+categories: Public
+---
+__Why I started this blog?__  
+I started this blog because I want to write about new things I learn those and I'm going to keep those for others and myself.
+
+__Why I use Jekyll?__  
+Because it's easy to manage, and another side it uses markdown, and I like markdown.
+
+__Why I use GitHub?__  
+Because it lets me track my changes quickly, and It has GitHub pages that allow me to serve my Jekyll over it.

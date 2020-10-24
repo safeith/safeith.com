@@ -1,0 +1,10 @@
+_site/
+_posts/*.temp
+.sass-cache/
+.bundle
+*~
+*.log
+Gemfile
+Gemfile.lock
+.jekyll-metadata
+.idea
