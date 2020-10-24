@@ -20,8 +20,7 @@ jobs:
     - name: prepare
       run: |
         rm -rf .github
-        sed -i 's/safeith.com/safeithxzs4ep4fx.onion/g' _config.yml
-        sed -i 's/shortname: safeithxzs4ep4fx.onion/shortname: safeith-com/g' _config.yml
+        sed -i 's/https:\/\/safeith.com/http:\/\/safeithxzs4ep4fx.onion/g' _config.yml
         sed -i 's/safeith.com/safeithxzs4ep4fx.onion/g' CNAME
         git add .
         git commit -m "github.event.head_commit.message"
