@@ -4,6 +4,8 @@ title:  "Kubernetes cluster from scratch"
 date:   2019-05-25 10:19:07 +0430
 categories: Kubernetes
 ---
+__<span style="color: red;">Note: This document is deprecated</span>__
+
 In this document we will create a kubernetes cluster with Ubuntu 18.04 servers and Hyperkube, It's a multi master cluster.
 
 ## Requirements

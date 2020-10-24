@@ -6,13 +6,13 @@ categories: SSL
 ---
 In this short story, I will share my experience about using the Let's Encrypt SSL certificate for cPanel hostname. As you know, cPanel provides a free SSL certificate for cPanel hostname as default. But some times it now works for Iranian domain, so you can use the following steps to have a valid SSL certificate for your cPanel services.
 
-## Install the `Certbot` from `EPEL`
+## Install the Certbot from EPEL
 Run following command to install `certbot` from `epel` repo
 {% highlight bash %}
 yum install --enablerepo=epel certbot
 {% endhighlight %}
 
-## Create `deploy-hook` script for `Certbot`
+## Create deploy-hook script for Certbot
 Create `hostname-ssl.sh` file
 {% highlight bash %}
 vim /usr/local/bin/hostname-ssl.sh
