@@ -29,21 +29,15 @@ remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-mastodon_webfinger
 disqus:
   shortname: safeith-com
 minima:
   date_format: "%Y-%m-%d"
-  # social_links:
-  #   twitter: safeith
-  #   github:  safeith
-  #   keybase: safeith
-  #   mastodon:
-  #     - username: safeith
-  #       instance: mas.to
-mastodon:
-  username: me
-  instance: safeith.com
+   social_links:
+     github:  safeith
+     mastodon:
+       - username: me
+         instance: safeith.com
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -55,3 +49,4 @@ mastodon:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+include: [".well-known"]
