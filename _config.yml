@@ -34,13 +34,13 @@ disqus:
   shortname: safeith-com
 minima:
   date_format: "%Y-%m-%d"
-  social_links:
-    twitter: safeith
-    github:  safeith
-    keybase: safeith
-    mastodon:
-      - username: safeith
-        instance: mas.to
+  # social_links:
+  #   twitter: safeith
+  #   github:  safeith
+  #   keybase: safeith
+  #   mastodon:
+  #     - username: safeith
+  #       instance: mas.to
 mastodon:
   username: me
   instance: safeith.com
