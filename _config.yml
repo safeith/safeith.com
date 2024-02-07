@@ -25,7 +25,7 @@ url: "https://safeith.com" # the base hostname & protocol for your site, e.g. ht
 # Build settings
 markdown: kramdown
 #theme: minima
-remote_theme: jekyll/minima@9350a3b1b41fd46f377941705156a7366251d9cc
+remote_theme: jekyll/minima@2863624b903b17f838d6ce8d2f77900fa9d3c864
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
