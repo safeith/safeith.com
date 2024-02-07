@@ -33,11 +33,11 @@ disqus:
   shortname: safeith-com
 minima:
   date_format: "%Y-%m-%d"
-   social_links:
-     github:  safeith
-     mastodon:
-       - username: me
-         instance: safeith.com
+  social_links:
+    github:  safeith
+    mastodon:
+      - username: me
+        instance: safeith.com
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
