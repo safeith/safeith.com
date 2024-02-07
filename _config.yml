@@ -25,7 +25,7 @@ url: "https://safeith.com" # the base hostname & protocol for your site, e.g. ht
 # Build settings
 markdown: kramdown
 #theme: minima
-remote_theme: jekyll/minima@2863624b903b17f838d6ce8d2f77900fa9d3c864
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -34,10 +34,8 @@ disqus:
 minima:
   date_format: "%Y-%m-%d"
   social_links:
-    github:  safeith
-    mastodon:
-      - username: me
-        instance: safeith.com
+    - { platform: github, user_url: "https://github.com/safeith" }
+    - { platform: mastodon, user_url: "https://mas.to/safeith" }
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
