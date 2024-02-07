@@ -29,6 +29,7 @@ remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - astodon_webfinger
 disqus:
   shortname: safeith-com
 minima:
@@ -40,6 +41,9 @@ minima:
     mastodon:
       - username: safeith
         instance: mas.to
+mastodon:
+  username: me
+  instance: safeith.com
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -51,6 +55,3 @@ minima:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-plugins:
- - jekyll-feed
- - jekyll-seo-tag
